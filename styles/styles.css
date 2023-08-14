@@ -1,0 +1,31 @@
+/* CSS Stylesheet for Modest Mills webpage */
+
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+/* Header style */
+#header {
+    display: flex;
+    background-color: antiquewhite;
+}
+
+#hero-header {
+    background-color: lightgray;
+}
+
+/* Body Content Styles */
+#body-1 {
+    background-color: azure;
+}
+
+#body-2 {
+    background-image: linear-gradient(orange, red);
+}
+
+/* Footer */
+footer {
+    display: flex;
+    background-color: red;
+}
