@@ -6,6 +6,10 @@ html, body {
     margin: auto;
 }
 
+div {
+    min-width: 1000px;
+}
+
 a {
     text-decoration: none;
     color:black;
@@ -14,6 +18,11 @@ a {
 p {
     margin: 0 0;
     padding: 0% 0%;
+}
+
+img {
+    width: 500px;
+    height: auto;
 }
 
 /* Header style */
@@ -50,6 +59,15 @@ p {
 
 #hero-header {
     background-color: lightgray;
+    background-image: url("../images/pexels-mariana-kurnyk-1775043.jpg");
+    background-repeat: no-repeat;
+    background-position: 0px -500px;
+    background-size: 150% auto;
+}
+
+#header-img {
+    width: 5%;
+    padding: 200px;
 }
 
 /* Body Content Styles */
