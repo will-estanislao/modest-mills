@@ -11,7 +11,7 @@ a {
     color:black;
 }
 
-p {
+p, h1, h2 {
     margin: 0 0;
     padding: 0% 0%;
 }
@@ -25,7 +25,9 @@ img {
 #header {
     display: flex;
     justify-content: space-between;
-    background-color: antiquewhite;
+    background-color: white;
+    box-shadow: 0px 2px 5px grey;
+    position: relative;
 }
 
 #header-logo {
@@ -52,6 +54,11 @@ img {
 .nav {
     margin: auto 1%;
     padding: 1% 2%;
+}
+
+.nav:hover {
+    color: red;
+    text-decoration: underline;
 }
 
 #hero-header {
@@ -85,7 +92,13 @@ img {
 
 /* Body Content Styles */
 #body-1 {
-    background-color: azure;
+    background-color: white;
+
+}
+
+.img-resize {
+    width: 150px;
+    height: 150px;
 }
 
 #body-2 {
