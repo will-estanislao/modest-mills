@@ -6,10 +6,6 @@ html, body {
     margin: auto;
 }
 
-div {
-    min-width: 1000px;
-}
-
 a {
     text-decoration: none;
     color:black;
@@ -48,6 +44,7 @@ img {
 }
 
 #nav-links {
+    min-width: 1000px;
     display: flex;
     justify-content: flex-end;
 }
@@ -58,17 +55,33 @@ img {
 }
 
 #hero-header {
+    min-height: 100px;
+    min-width: 1500px;
     background-color: lightgray;
     background-image: url("../images/pexels-mariana-kurnyk-1775043.jpg");
     background-repeat: no-repeat;
-    background-position: 0px -500px;
+    background-position: 0px -300px;
+    background-attachment: fixed;
     background-size: 150% auto;
 }
 
-#header-img {
-    width: 5%;
-    padding: 200px;
+#header-text {
+    max-width: 20%;
+    padding: 200px 2%;
 }
+
+.button {
+    max-width: 80%;
+    margin: 5% 0% 0% 2%;
+    padding: 2% 2%;
+    background-color: red;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: white;
+    border-radius: 25px;
+    text-align: center;
+}
+
 
 /* Body Content Styles */
 #body-1 {
