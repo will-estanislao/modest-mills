@@ -164,5 +164,11 @@ p, h1, h2 {
 /* Footer */
 footer {
     display: flex;
+    justify-content: space-between;
+    padding: 5% 10%;
     background-color: red;
+}
+
+#contact-links {
+    display: block
 }
