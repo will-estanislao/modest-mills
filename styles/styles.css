@@ -28,6 +28,10 @@ p, h1, h2 {
     width: 100%;
 }
 
+.flex {
+    display: flex;
+}
+
 
 /* Header style */
 #header {
@@ -38,8 +42,12 @@ p, h1, h2 {
     position: relative;
 }
 
+#logo {
+    flex: 1 1 0;
+}
+
 #header-logo {
-    flex: 2 1 0;
+    align-self: center;
 }
 
 /* Navigation Links */
