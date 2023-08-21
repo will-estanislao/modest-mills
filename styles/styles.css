@@ -171,6 +171,10 @@ p, h1, h2 {
     padding-left: 10%;
 }
 
+.body2-title {
+    color: white;
+}
+
 .img-portrait {
     margin: auto;
     width: 270px;
