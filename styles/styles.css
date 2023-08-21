@@ -120,9 +120,26 @@ p, h1, h2 {
 
 }
 
+.main-title {
+    color: red;
+    size: 20px;
+}
+
 .img-resize {
     width: 150px;
     height: 150px;
+}
+
+.img-resize-alt {
+    width: 250px;
+    height: 250px;
+}
+
+.about-title {
+    color: orange;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
 }
 
 #b1-content2 {
