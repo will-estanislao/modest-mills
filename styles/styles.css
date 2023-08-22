@@ -188,10 +188,10 @@ label {
     align-self: center;
     flex-grow:1;
     padding-left: 10%;
-
 }
 
 .body2-title {
+    font-size: 50px;
     padding: 1% 0%;
     color: white;
 }
@@ -203,14 +203,14 @@ label {
 }
 
 #form-img {
-    max-width: 200px;
+    max-width: 550px;
     height: auto;
     flex-grow: 2;
 }
 
 .form-entry-box {
-    margin: 1% 0%;
-    width: 300px;
+    margin: 2% 0%;
+    width: 375px;
     height: 25px;
     border-radius: 35px;
     border:none;
@@ -218,6 +218,10 @@ label {
 
 .form-label,.form-text {
     color: white;
+}
+
+.form-text {
+    font-size: 14px;
 }
 
 #submit-button {
