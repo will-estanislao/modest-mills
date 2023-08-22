@@ -131,8 +131,8 @@ p, h1, h2 {
 }
 
 .img-resize-alt {
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
 }
 
 .about-title {
@@ -142,7 +142,13 @@ p, h1, h2 {
     text-transform: uppercase;
 }
 
+.about-us {
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
 #b1-content2 {
+    padding: 0% 3%;
     margin-bottom: 2%;
     display: flex;
     justify-content: center;
