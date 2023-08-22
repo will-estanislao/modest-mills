@@ -115,7 +115,7 @@ p, h1, h2 {
 
 /* Body Content Styles */
 #body-1 {
-    padding: 2% 5%;
+    padding: 1% 5% 2%;
     background-color: white;
 
 }
@@ -154,6 +154,11 @@ p, h1, h2 {
     justify-content: center;
 }
 
+#fanfav-title {
+    margin-top: 0;
+    margin-bottom: 1%;
+}
+
 #about-link {
     text-align: center;
 }
@@ -178,12 +183,13 @@ p, h1, h2 {
 }
 
 .body2-title {
+    padding: 1% 0%;
     color: white;
 }
 
 .img-portrait {
     margin: auto;
-    width: 270px;
+    width: 310px;
     padding: 0 0;
 }
 
