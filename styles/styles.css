@@ -235,7 +235,21 @@ label {
 }
 
 #body2-content3 {
+    width: 100%;
+}
+
+#hashtag-title {
     text-align: center;
+}
+
+.img-stretch {
+    align-content: stretch;
+}
+
+.img-hashtag {
+    object-fit: fill;
+    width: 350px;
+    height: 250px;
 }
 
 /* Content */
