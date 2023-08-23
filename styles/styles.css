@@ -268,7 +268,14 @@ footer {
     padding: 5% 10%;
     background-color: red;
 }
+.contact-info {
+    color: white;
+}
 
-#contact-links {
-    display: block;
+.footer-link {
+    padding: 1% 0%;
+}
+
+#contact-title, .sub-title {
+    color: yellow;
 }
