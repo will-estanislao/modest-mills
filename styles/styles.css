@@ -269,14 +269,19 @@ footer {
     background-color: red;
 }
 .contact-info {
-    color: white;
     display: block;
 }
 
 .footer-link, .contact-text {
     padding: 2% 0%;
+    color: white;
 }
 
 #contact-title, .sub-title {
     color: yellow;
+}
+
+i {
+    display:inline-block;
+    padding: 1% 2%;
 }

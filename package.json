@@ -2,7 +2,7 @@
   "name": "modestmills",
   "version": "1.0.0",
   "description": "A website for a vegan friendly bakery",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
