@@ -60,7 +60,6 @@ label {
 
 /* Navigation Links */
 #header-nav {
-    flex: 1 1 0;
     text-transform: uppercase;
 }
 
@@ -76,6 +75,7 @@ label {
 }
 
 .nav {
+    display: inline-block;
     margin: auto 1%;
     padding: 1% 2%;
 }
@@ -267,7 +267,9 @@ footer {
     justify-content: space-between;
     padding: 5% 10%;
     background-color: red;
+    padding-bottom: 10%;
 }
+
 .contact-info {
     display: block;
 }
