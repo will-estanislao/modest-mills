@@ -314,8 +314,12 @@ i {
     text-align: center;
     width: 50px;
     background-color: lightgrey;
-    margin-left: 1%;
 }
+
+.carousel-btn:hover {
+    background-color: darkgray;
+}
+
 
 .carousel-img {
     width: 230px;
@@ -325,4 +329,10 @@ i {
 #img-box {
     display: flex;
     white-space: nowrap;
+    overflow: hidden;
+}
+
+.img-cell {
+    padding-left: .5%;
+    padding-right: .5%;
 }
