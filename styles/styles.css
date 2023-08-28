@@ -226,6 +226,7 @@ a.nav:hover {
     height: 25px;
     border-radius: 35px;
     border:none;
+    padding: .5% 2%;
 }
 
 .form-label,.form-text {
