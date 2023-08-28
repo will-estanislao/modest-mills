@@ -3,6 +3,8 @@
 html, body {
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
+    padding: 0 0;
+    overflow-x: hidden;
     margin: auto;
 }
 
@@ -105,19 +107,23 @@ a.nav:hover {
 
 #hero-header {
     overflow: hidden;
-    background-color: lightgray;
-    background-image: url("../images/pexels-mariana-kurnyk-1775043.jpg");
+    background-color: #EBE4EB;
+    background-image: url("../images/pexels-mariana-kurnyk-1775043_edit.jpg");
     background-repeat: no-repeat;
-    background-position: 0px -300px;
+    background-position: right center;
     background-attachment: fixed;
-    background-size: 150% auto;
+    background-size: 1080px 1290px;
 }
 
 #header-text {
     display: flex;
     flex-direction: column;
     max-width: 25%;
-    padding: 150px 2%;
+    padding: 90px 2% 190px 8%;
+}
+
+#hero-text {
+    padding-right: 5%;
 }
 
 .button {
@@ -129,6 +135,7 @@ a.nav:hover {
     color: white;
     border-radius: 30px;
     text-align: center;
+    white-space: nowrap;
 }
 
 .alt-button {
@@ -315,13 +322,19 @@ i {
     align-items: center;
     text-align: center;
     width: 50px;
-    background-color: lightgrey;
+    background-color: white;
+    border: 0px none;
+    padding-left: .5%;
+    padding-right: .5%;
 }
 
 .carousel-btn:hover {
-    background-color: darkgray;
+    background-color: whitesmoke;
 }
 
+.btn-text {
+    font-size: 30px;
+}
 
 .carousel-img {
     width: 230px;

@@ -7,17 +7,19 @@ const imageSet = body.getElementsByClassName("carousel-img");
 const leftButton = document.getElementById("left-btn");
 const rightButton = document.getElementById("right-btn");
 
+leftButton.onload = leftButton.style.visibility = "hidden";
+
 /**
  * Assign Events
  */
 leftButton.addEventListener("click", (e) => {
   console.log("click Left");
-  moveRight();
+  moveLeft();
 });
 
 rightButton.addEventListener("click", (e) => {
   console.log("click Right");
-  moveLeft();
+  moveRight();
 });
 
 /**
@@ -33,6 +35,9 @@ function moveLeft() {
     imageSet.item(i).classList.add("carousel-img-left");
     checkImageClassList(imageSet.item(i));
   }
+
+  rightButton.style.visibility = "visible";
+  leftButton.style.visibility = "hidden";
 }
 
 function moveRight() {
@@ -43,6 +48,9 @@ function moveRight() {
     imageSet.item(i).classList.add("carousel-img-right");
     checkImageClassList(imageSet.item(i));
   }
+
+  leftButton.style.visibility = "visible";
+  rightButton.style.visibility = "hidden";
 }
 
 function checkImageClassList(element) {

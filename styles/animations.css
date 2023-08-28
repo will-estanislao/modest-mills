@@ -11,9 +11,17 @@
 }
 
 .carousel-img-right {
-    transform: translateX(-55%);
+    transform: translateX(-50%);
 }
 
 .carousel-img-left {
     transform: translateX(0%);
+}
+
+.btn-visibility {
+    visibility: visible;
+}
+
+.btn-hide {
+    visibility: hidden;
 }
