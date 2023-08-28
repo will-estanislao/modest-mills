@@ -1,0 +1,19 @@
+/*
+*   CSS stylesheet for animated elements
+*/
+
+/*
+* Image Carousel Animation
+*/
+.carousel-img {
+    transform: translateX(0);
+    transition: 500ms;
+}
+
+.carousel-img-right {
+    transform: translateX(-55%);
+}
+
+.carousel-img-left {
+    transform: translateX(0%);
+}
