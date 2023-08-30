@@ -32,6 +32,10 @@ li {
     list-style: none;
 }
 
+figure {
+    max-width: 25%;
+}
+
 /* Group Styles */
 .content-text {
     padding: 2% 0% 5% 3%;
