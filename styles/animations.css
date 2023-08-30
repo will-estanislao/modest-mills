@@ -3,6 +3,25 @@
 */
 
 /*
+* Meet The Team Portraits Animation
+*/
+@keyframes team-info {
+    0% {opacity: 0;}
+    100% {background-color:red; opacity: 1;}
+}
+
+.portrait-box, .img-portrait, .portrait-text{
+    transition: background-color 1s linear;
+    transition: opacity 1s;
+}
+
+
+.portrait-box:hover, .img-portrait:hover, .portrait-text:hover {
+    background-color: red;
+    opacity: 100%;
+}
+
+/*
 * Image Carousel Animation
 */
 .carousel-img {
@@ -16,12 +35,4 @@
 
 .carousel-img-left {
     transform: translateX(0%);
-}
-
-.btn-visibility {
-    visibility: visible;
-}
-
-.btn-hide {
-    visibility: hidden;
 }

@@ -41,6 +41,7 @@ li {
 .img-gallery {
     font-size: 0;
     width: 100%;
+    justify-content: center;
 }
 
 .img-resize {
@@ -61,7 +62,7 @@ li {
     box-shadow: 0px 2px 5px grey;
     position: relative;
     width:97%;
-    padding: 1% 2%;
+    padding: 1% 2% .5%;
 }
 
 #logo {
@@ -205,16 +206,9 @@ a.nav:hover {
     text-align: center;
 }
 
-#body2-content2 {
-    display: flex;
-    margin-top: 5%;
-}
-
-#input-form {
-    align-self: center;
-    flex-grow:1;
-    padding-left: 10%;
-}
+/*
+* Meet The Team Portraits
+*/
 
 .body2-title {
     font-size: 50px;
@@ -226,6 +220,45 @@ a.nav:hover {
     margin: auto;
     width: 310px;
     padding: 0 0;
+}
+
+.portrait-text {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    color: white;
+    position: absolute;
+    opacity: 0%;
+}
+
+.name {
+    font-size: 32px;
+}
+
+.job-title {
+    font-size: 24px;
+    font-style: italic;
+}
+
+
+.portrait-box {
+    position: relative;
+}
+
+/*
+* Bread Bundles form styles
+*/
+#body2-content2 {
+    display: flex;
+    margin-top: 5%;
+}
+
+#input-form {
+    align-self: center;
+    flex-grow: 1;
+    padding-left: 10%;
 }
 
 #form-img {
@@ -261,6 +294,10 @@ a.nav:hover {
     border: none;
     text-transform: uppercase;
 }
+
+/*
+* Hashtag Pastry Posse Section
+*/
 
 #body2-content3 {
     width: 100%;
