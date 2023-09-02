@@ -18,5 +18,6 @@
   "homepage": "https://github.com/will-estanislao/modest-mills#readme",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.2"
-  }
+  },
+  "devDependencies": {}
 }
